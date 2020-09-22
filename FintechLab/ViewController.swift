@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // UI
+    // MARK: - UI
+    
     @IBOutlet weak var companyNameLabel: UILabel!
     @IBOutlet weak var companyPickerView: UIPickerView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
@@ -18,7 +19,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var priceChangeLabel: UILabel!
     
-    // Private
+    // MARK: - Private
+    
     private lazy var companies = [
         "Apple": "AAPL",
         "Microsoft": "MSFT",
